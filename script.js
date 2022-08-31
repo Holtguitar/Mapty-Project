@@ -12,10 +12,10 @@ class Workout {
         this.calcPace();
     }
  
-    // calcPace() {
-    //     this.pace = this.duration / this.distance;
-    //     return this.pace;
-    // }
+    calcPace() {
+         this.pace = this.duration / this.distance;
+         return this.pace;
+     }
  
   _setDescription(){
       const months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
